@@ -67,7 +67,7 @@ brain-tumor-ai/
 ```
 
 ---
-```yaml
+
 ## Features
 
 | Component | Description |
@@ -113,7 +113,7 @@ brain-tumor-ai/
 
 git clone https://github.com/<your-username>/brain-tumor-ai.git
 cd brain-tumor-ai
-```
+
 
 ### Install Dependencies
 pip install -r deployment/requirements.txt
