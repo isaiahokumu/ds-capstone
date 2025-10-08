@@ -8,6 +8,13 @@ An integrated deep learning project that detects brain tumors from MRI scans usi
 
 This project aims to build an end-to-end AI-powered system for **brain tumor detection, research awareness, and insight generation**.
 
+## Problem Statement
+The accurate and timely diagnosis of brain tumors is a critical challenge in modern medicine. Manual analysis of Magnetic Resonance Imaging (MRI) scans by radiologists is a meticulous and time-consuming process that is prone to human error, potentially leading to misdiagnosis or delayed treatment. The subtle variations in tumor morphology, size, and location make it difficult to distinguish between different tumor types, such as gliomas, meningiomas, and pituitary tumors. This diagnostic bottleneck can severely impact patient outcomes, as the success of treatment often depends on early and precise intervention.
+
+While automated systems have been proposed, many existing solutions suffer from limitations, including a high dependency on hand-crafted features, which fail to capture the complex, underlying patterns in medical images. Furthermore, these systems often lack a comprehensive framework that integrates diverse data sources, such as unstructured text from medical reports and external research news, into the diagnostic workflow.
+
+This project addresses these challenges by proposing a robust and integrated deep learning system for the automated detection and classification of brain tumors from MRI scans. The primary objective is to develop a highly accurate and efficient model that can differentiate between various tumor types and normal brain tissue.
+
 ### Key Components
 - **Deep Learning:** Classification & segmentation of brain tumors using CNNs and transfer models (VGG16/VGG19).
 - **Autoencoders:** Unsupervised anomaly detection to identify abnormal brain regions.
