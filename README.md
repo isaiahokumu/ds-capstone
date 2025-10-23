@@ -79,10 +79,7 @@ brain-tumor-ai/
 | **CNN Classifier** | Custom convolutional model for baseline classification |
 | **Transfer Learning (VGG16/VGG19)** | Pre-trained models fine-tuned for tumor detection |
 | **Autoencoder** | Unsupervised anomaly detection using reconstruction errors |
-| **OCR Extraction** | Extracts medical text from reports/images using Tesseract |
-| **Web Scraping & APIs** | Collects latest brain tumor research/news |
-| **Sentiment Analysis** | Analyzes tone and emotion in medical news |
-| **Cloud Deployment** | Model hosting via AWS SageMaker, GCP Vertex, or Streamlit Cloud |
+| **Cloud Deployment** | Model hosting via Streamlit Cloud |
 | **Explainability (Grad-CAM)** | Visual heatmaps showing regions influencing predictions |
 
 ---
@@ -100,13 +97,10 @@ brain-tumor-ai/
 - Hugging Face Transformers  
 - BeautifulSoup / Requests  
 
-**Web & API**
-- Streamlit  
-- FastAPI  
-- Docker  
-
-**Cloud**
-- AWS SageMaker / GCP Vertex AI  
+**Web**
+- Streamlit
+  
+**Cloud** 
 - Streamlit Cloud  
 
 ---
@@ -136,16 +130,6 @@ Unzip it into:
 Run notebooks in sequence:
 ```bash
 jupyter notebook notebooks/01_data_preprocessing.ipynb
-```
-
-### Launch FastAPI Service
-```bash
-uvicorn src.api:app --reload
-```
-### Docker Build (Optional)
-```bash
-docker build -t brain-tumor-ai .
-docker run -p 8501:8501 brain-tumor-ai
 ```
 ### Cloud Deployment
 Use GCP Vertex AI for training and prediction.
