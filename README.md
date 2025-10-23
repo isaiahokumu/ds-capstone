@@ -18,9 +18,6 @@ This project addresses these challenges by proposing a robust and integrated dee
 ### Key Components
 - **Deep Learning:** Classification & segmentation of brain tumors using CNNs and transfer models (VGG16/VGG19).
 - **Autoencoders:** Unsupervised anomaly detection to identify abnormal brain regions.
-- **OCR:** Extract and interpret medical text from scanned reports or PDFs.
-- **News & Sentiment Analysis:** Fetch latest medical news related to brain tumors and classify sentiment.
-- **Cloud & Deployment:** Model training and deployment on cloud platforms (AWS, GCP, or Azure).
 - **Web Interface:** Streamlit application for clinicians and researchers to visualize results.
 
 ---
