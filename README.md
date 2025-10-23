@@ -1,6 +1,6 @@
 # Brain Tumor Detection & Intelligence System
 
-An integrated deep learning project that detects brain tumors from MRI scans using **Convolutional Neural Networks (CNNs)**, **VGG16/VGG19 transfer learning**, and **Autoencoders** for anomaly detection — combined with **OCR extraction**, **real-time news sentiment analysis**, and **cloud-based deployment**.
+An integrated deep learning project that detects brain tumors from MRI scans using **Convolutional Neural Networks (CNNs)**, **VGG16/VGG19 transfer learning**, and **Autoencoders** for anomaly detection and **cloud-based deployment**.
 
 ---
 
